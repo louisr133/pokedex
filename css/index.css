@@ -181,6 +181,7 @@ footer {
 img {
   height: 200px;
   margin: 5px 0 0 25px;
+  image-rendering: pixelated;
 }
 table {
   width: 99%;
@@ -217,5 +218,10 @@ td {
   }
   to {
     opacity: 1;
+  }
+}
+@media (max-width: 1200px) {
+  .hide {
+    display: none;
   }
 }

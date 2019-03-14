@@ -67,7 +67,6 @@ border-spacing: 0;
     src: url(../fonts/PokemonSolid.ttf);
 }
 
-
 body {
     font-family: 'Press Start 2p';
     background: linear-gradient(80deg, #fff 20%, #E80310 0%);
@@ -118,6 +117,7 @@ footer{
 img {
     height: 200px;
     margin: 5px 0 0 25px;
+    image-rendering: pixelated;
        
 }
 
@@ -142,4 +142,11 @@ td {
 #pokedex {
     .fadein1();
 
+}
+
+
+@media (max-width: 1200px){
+    .hide{
+        display: none;
+    }
 }
